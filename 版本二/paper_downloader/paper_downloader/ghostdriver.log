@@ -1,0 +1,31 @@
+[INFO  - 2020-01-10T05:24:40.476Z] GhostDriver - Main - running on port 52004
+[INFO  - 2020-01-10T05:24:42.062Z] Session [81357b90-3369-11ea-8845-61d15eb58dd3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-01-10T05:24:42.062Z] Session [81357b90-3369-11ea-8845-61d15eb58dd3] - page.customHeaders:  - {}
+[INFO  - 2020-01-10T05:24:42.062Z] Session [81357b90-3369-11ea-8845-61d15eb58dd3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-01-10T05:24:42.062Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 81357b90-3369-11ea-8845-61d15eb58dd3
+[ERROR - 2020-01-10T05:24:50.167Z] Session [81357b90-3369-11ea-8845-61d15eb58dd3] - page.onError - msg: Uncaught (in promise) getMetricMaps@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:720409
+getMetrics@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:719573
+getMetrics@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:331311
+https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:326562
+renderDoc@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:326794
+render@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:328897
+https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:7669545
+T@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:224259
+f@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:1872
+rn@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:4404
+handleRetriesFor@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:224235
+typesetPromise@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:7669516
+defaultPageReady@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:5116015
+[native code]
+https://openreview.net/static/dist/vendor.min.js?v=3.0.3:300:5115905
+g@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:3367
+f@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:1872
+https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:5829
+e@https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58:1993
+
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-01-10T05:24:50.167Z] Session [81357b90-3369-11ea-8845-61d15eb58dd3] - page.onError - stack:
+  unhandledRejection (https://openreview.net/static/dist/vendor.min.js?v=3.0.3:58)
+
+  phantomjs://platform/console++.js:263 in error
